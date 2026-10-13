@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Explore - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <h2>🌿🗺️ Explore Nature</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="registration.html">Registration</a></li>
+
+    </ul>
+</nav>
+    <div class="container">
+
+        <h1>Join Nature Explore</h1>
+        <p>Register now and explore the beauty of nature!</p>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter your mobile number"
+                   pattern="[0-9]{10}" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Create a password"
+                   minlength="6" required>
+
+            <label>Choose Your Favourite Place</label>
+            <select required>
+                <option value="">Select a place</option>
+                <option>Mountains</option>
+                <option>Waterfalls</option>
+                <option>Forests</option>
+                <option>Beaches</option>
+            </select>
+
+            <label>Gender</label>
+            <div class="gender">
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </div>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+        <p class="login">
+            Already have an account?
+            <a href="login.html">Login Here</a>
+        </p>
+
+    </div>
+</body>
